@@ -2,6 +2,6 @@
 class School
   def initialize(name_of_school)
     @name_of_school = name_of_school
-    self.roster = {}
+    roster = {}
   end
 end

@@ -25,8 +25,7 @@ class School
       new_stu = students.sort
       sorted[grade] << new_stu
     end
-    @roster = sorted
-    @roster
+    sorted
   end
   
 end

@@ -26,6 +26,7 @@ class School
       sorted[grade] << new_stu
     end
     sorted
+    @roster
   end
   
 end

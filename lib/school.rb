@@ -27,7 +27,7 @@ class School
       @roster[grade] = new_stu
     
     end
-    @rosted
+    @roster
   end
   
 end

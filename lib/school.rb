@@ -20,7 +20,11 @@ class School
   end
   
   def sort 
-    @roster.each
+    sorted = {}
+    @roster.each do |grade, students|
+      new_stu = students.sort
+      sorted << sorted[grade] = new_stu
+    end
   end
   
 end

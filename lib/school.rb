@@ -24,7 +24,7 @@ class School
     @roster.each do |grade, students|
       new_stu = students.sort
   
-      @roster[grade] << new_stu
+      @roster[grade] = new_stu
     
     end
     @rosted

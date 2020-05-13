@@ -23,9 +23,9 @@ class School
     sorted = {}
     @roster.each do |grade, students|
       new_stu = students.sort
-      sorted[grade] = []
+  
       @rosted[grade] << new_stu
-      sorted[grade].flatten
+    
     end
     @rosted
   end

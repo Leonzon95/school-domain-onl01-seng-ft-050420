@@ -23,10 +23,10 @@ class School
     sorted = {}
     @roster.each do |grade, students|
       new_stu = students.sort
+      sorted[grade] = []
       sorted[grade] << new_stu
     end
     sorted
-    @roster
   end
   
 end
